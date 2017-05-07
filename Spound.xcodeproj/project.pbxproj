@@ -14,6 +14,9 @@
 		346A04811EBF9CDB005755A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 346A04801EBF9CDB005755A7 /* Assets.xcassets */; };
 		346A04841EBF9CDB005755A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 346A04821EBF9CDB005755A7 /* LaunchScreen.storyboard */; };
 		346A048C1EBF9D2D005755A7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 346A048B1EBF9D2D005755A7 /* GoogleService-Info.plist */; };
+		346A04911EBFC6F9005755A7 /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346A04901EBFC6F9005755A7 /* RoundBtn.swift */; };
+		346A04941EBFC83C005755A7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346A04931EBFC83C005755A7 /* Constants.swift */; };
+		346A04961EBFCABB005755A7 /* login_textfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346A04951EBFCABB005755A7 /* login_textfield.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		346A04831EBF9CDB005755A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		346A04851EBF9CDB005755A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		346A048B1EBF9D2D005755A7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		346A04901EBFC6F9005755A7 /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
+		346A04931EBFC83C005755A7 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		346A04951EBFCABB005755A7 /* login_textfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = login_textfield.swift; sourceTree = "<group>"; };
 		526CF3E14803B20B3B8F23FE /* Pods-Spound.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spound.release.xcconfig"; path = "Pods/Target Support Files/Pods-Spound/Pods-Spound.release.xcconfig"; sourceTree = "<group>"; };
 		AEC7AC5F2D76F5522A1FF933 /* Pods_Spound.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spound.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -63,6 +69,7 @@
 		346A04781EBF9CDB005755A7 /* Spound */ = {
 			isa = PBXGroup;
 			children = (
+				346A04921EBFC828005755A7 /* Util */,
 				346A048D1EBFA0A8005755A7 /* Model */,
 				346A048F1EBFA0B5005755A7 /* Controller */,
 				346A048E1EBFA0B1005755A7 /* View */,
@@ -86,6 +93,8 @@
 		346A048E1EBFA0B1005755A7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				346A04901EBFC6F9005755A7 /* RoundBtn.swift */,
+				346A04951EBFCABB005755A7 /* login_textfield.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -96,6 +105,14 @@
 				346A047B1EBF9CDB005755A7 /* SignInVC.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		346A04921EBFC828005755A7 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				346A04931EBFC83C005755A7 /* Constants.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 		424C69F71114C49B1B7ADB0C /* Frameworks */ = {
@@ -240,8 +257,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				346A04911EBFC6F9005755A7 /* RoundBtn.swift in Sources */,
 				346A047C1EBF9CDB005755A7 /* SignInVC.swift in Sources */,
 				346A047A1EBF9CDB005755A7 /* AppDelegate.swift in Sources */,
+				346A04941EBFC83C005755A7 /* Constants.swift in Sources */,
+				346A04961EBFCABB005755A7 /* login_textfield.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

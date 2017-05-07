@@ -99,10 +99,8 @@
                                     <color key="titleColor" red="0.88627450980392153" green="0.89411764705882357" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Username" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yKm-Bg-e8f">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Username" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yKm-Bg-e8f" customClass="login_textfield" customModule="Spound" customModuleProvider="target">
                                 <rect key="frame" x="84" y="410" width="231" height="30"/>
-                                <color key="backgroundColor" red="0.88627450980392153" green="0.89411764705882357" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="231" id="caW-Xz-L2A"/>
                                     <constraint firstAttribute="height" constant="30" id="eAP-4X-pNG"/>
@@ -111,7 +109,7 @@
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="roy-sO-WWy">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="roy-sO-WWy" customClass="login_textfield" customModule="Spound" customModuleProvider="target">
                                 <rect key="frame" x="84" y="467" width="231" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="231" id="BnX-D0-pZ8"/>
@@ -121,7 +119,7 @@
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t2Q-qJ-vPE">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t2Q-qJ-vPE" customClass="RoundBtn" customModule="Spound" customModuleProvider="target">
                                 <rect key="frame" x="143" y="582" width="89" height="49"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="49" id="T5k-7C-loM"/>
