@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		22290D08CC6A03298C61BEA2 /* Pods_Spound.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC7AC5F2D76F5522A1FF933 /* Pods_Spound.framework */; };
+		34092B621EC0E2CD000CA0D4 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34092B611EC0E2CD000CA0D4 /* FeedVC.swift */; };
 		346A047A1EBF9CDB005755A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346A04791EBF9CDB005755A7 /* AppDelegate.swift */; };
 		346A047C1EBF9CDB005755A7 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346A047B1EBF9CDB005755A7 /* SignInVC.swift */; };
 		346A047F1EBF9CDB005755A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 346A047D1EBF9CDB005755A7 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		220B0330591B51C8FA7696B0 /* Pods-Spound.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spound.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Spound/Pods-Spound.debug.xcconfig"; sourceTree = "<group>"; };
+		34092B611EC0E2CD000CA0D4 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		346A04761EBF9CDB005755A7 /* Spound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spound.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		346A04791EBF9CDB005755A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		346A047B1EBF9CDB005755A7 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				346A047B1EBF9CDB005755A7 /* SignInVC.swift */,
+				34092B611EC0E2CD000CA0D4 /* FeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 					346A04751EBF9CDB005755A7 = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = 4T6SF4RPSU;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -257,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34092B621EC0E2CD000CA0D4 /* FeedVC.swift in Sources */,
 				346A04911EBFC6F9005755A7 /* RoundBtn.swift in Sources */,
 				346A047C1EBF9CDB005755A7 /* SignInVC.swift in Sources */,
 				346A047A1EBF9CDB005755A7 /* AppDelegate.swift in Sources */,
@@ -384,6 +389,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 220B0330591B51C8FA7696B0 /* Pods-Spound.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4T6SF4RPSU;
 				INFOPLIST_FILE = Spound/Info.plist;
@@ -398,6 +404,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 526CF3E14803B20B3B8F23FE /* Pods-Spound.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4T6SF4RPSU;
 				INFOPLIST_FILE = Spound/Info.plist;
